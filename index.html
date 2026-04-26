@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="description" content="Bhushan Gajare - Senior iOS Engineer specializing in Swift, SwiftUI, and native mobile development. 3+ years experience at HSBC and Ciklum.">
+  <meta name="keywords" content="iOS Developer, Swift, SwiftUI, Mobile Development, Bhushan Gajare, HSBC, Ciklum">
+  <meta name="author" content="Bhushan Gajare">
+  <meta property="og:title" content="Bhushan Gajare — iOS Engineer">
+  <meta property="og:description" content="Senior iOS Engineer specializing in Swift, SwiftUI, and native mobile development">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <div class="scroll-progress"></div>
+  <nav>
+    <div class="nav-logo">bhushan gajare<span>.</span></div>
+    <div style="display: flex; align-items: center; gap: 1rem;">
+      <ul class="nav-links">
+        <li><a href="#about">about</a></li>
+        <li><a href="#experience">experience</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#blog">blog</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+      <div class="theme-toggle" onclick="toggleTheme()">
+        <span class="theme-toggle-icon">🌙</span>
+        <span style="font-size: 11px;">Dark</span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-grid-bg"></div>
+    <div class="hero-glow"></div>
+    <div class="container hero-inner">
+      <p class="hero-prompt">whoami</p>
+      <h1 class="hero-name">
+        Bhushan<br>
+        <span class="line2">Gajare<span class="cursor">_</span></span>
+      </h1>
+      <div class="hero-role">
+        <span>Senior Software Engineer</span>
+        <span>iOS · Swift · SwiftUI</span>
+        <span>Pune, India</span>
+      </div>
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary">→ Get in touch</a>
+        <a href="#" class="btn btn-ghost" onclick="downloadResume()">📄 Resume</a>
+        <a href="#projects" class="btn btn-ghost">View work</a>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <div class="stat-num">3+</div>
+          <div class="stat-label">years experience</div>
+        </div>
+        <div>
+          <div class="stat-num">2</div>
+          <div class="stat-label">companies</div>
+        </div>
+        <div>
+          <div class="stat-num">9.04</div>
+          <div class="stat-label">CGPA · PICT</div>
+        </div>
+        <div>
+          <div class="stat-num">⭐</div>
+          <div class="stat-label">Star Employee · Ciklum</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container reveal">
+      <p class="section-label">01 — about</p>
+      <h2 class="section-title">Building native iOS,<br>one commit at a time.</h2>
+      <div class="about-grid">
+        <div class="about-bio">
+          <p>
+            I'm a Senior Software Engineer at <strong style="color:var(--bright)">HSBC</strong>, specialising in native iOS development with Swift and SwiftUI. I care deeply about scalable architecture, performance, and shipping code that stands up in production — whether that's a modular banking feature or a cryptographically secure API flow.
+          </p>
+          <p>
+            Before HSBC, I spent three years at <strong style="color:var(--bright)">Ciklum</strong> building products for global clients including Procter &amp; Gamble — working across BLE/Wi-Fi connected devices, AR avatar pipelines, GraphQL integrations, and CI/CD automation. I was awarded <em style="color:var(--accent2)">Star Employee</em> within my first six months.
+          </p>
+          <p>
+            I hold a B.E. in Information Technology from Pune Institute of Computer Technology with a CGPA of 9.04/10.
+          </p>
+        </div>
+        <div class="about-card">
+          <div class="about-card-header">
+            <div class="dot dot-red"></div>
+            <div class="dot dot-yellow"></div>
+            <div class="dot dot-green"></div>
+            <span style="margin-left:0.5rem">bhushan.swift</span>
+          </div>
+          <div class="about-card-body">
+            <div class="code-line"><span class="ln">1</span><span><span class="kw">struct</span> <span class="var">Bhushan</span><span class="pun"> {</span></span></div>
+            <div class="code-line"><span class="ln">2</span><span>&nbsp;&nbsp;<span class="kw">let</span> <span class="var">role</span><span class="pun"> = </span><span class="str">"Senior iOS Engineer"</span></span></div>
+            <div class="code-line"><span class="ln">3</span><span>&nbsp;&nbsp;<span class="kw">let</span> <span class="var">company</span><span class="pun"> = </span><span class="str">"HSBC"</span></span></div>
+            <div class="code-line"><span class="ln">4</span><span>&nbsp;&nbsp;<span class="kw">let</span> <span class="var">location</span><span class="pun"> = </span><span class="str">"Pune, India"</span></span></div>
+            <div class="code-line"><span class="ln">5</span><span>&nbsp;&nbsp;<span class="kw">let</span> <span class="var">stack</span><span class="pun"> = [</span></span></div>
+            <div class="code-line"><span class="ln">6</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="str">"Swift"</span><span class="pun">, </span><span class="str">"SwiftUI"</span><span class="pun">, </span><span class="str">"Combine"</span></span></div>
+            <div class="code-line"><span class="ln">7</span><span>&nbsp;&nbsp;<span class="pun">]</span></span></div>
+            <div class="code-line"><span class="ln">8</span><span>&nbsp;&nbsp;<span class="kw">let</span> <span class="var">cgpa</span><span class="pun"> = </span><span class="str">9.04</span> <span class="cmt">// PICT</span></span></div>
+            <div class="code-line"><span class="ln">9</span><span><span class="pun">}</span></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="container reveal">
+      <p class="section-label">02 — experience</p>
+      <h2 class="section-title">Where I've shipped.</h2>
+      <div class="timeline">
+
+        <div class="exp-item">
+          <div class="exp-header">
+            <div class="exp-company">HSBC</div>
+            <div class="exp-period">Feb 2026 — Present</div>
+          </div>
+          <div class="exp-role">Senior Software Engineer · iOS</div>
+          <ul class="exp-bullets">
+            <li>Building scalable iOS architecture using SwiftUI and Redux, focusing on framework-based feature development and migrating legacy modules to a new modular system.</li>
+            <li>Managing CI/CD and release process using Jenkins — automated build generation, Testfairy distribution, and production releases.</li>
+            <li>Actively contributing to PI planning and Agile ceremonies, collaborating with cross-functional teams for feature estimation and sprint planning.</li>
+          </ul>
+          <div class="exp-tags">
+            <span class="tag">Swift</span>
+            <span class="tag">SwiftUI</span>
+            <span class="tag">Redux</span>
+            <span class="tag">Modular Architecture</span>
+            <span class="tag">Jenkins</span>
+            <span class="tag">Testfairy</span>
+          </div>
+        </div>
+
+        <div class="exp-item">
+          <div class="exp-header">
+            <div class="exp-company">Ciklum</div>
+            <div class="exp-period">July 2022 — Jan 2026</div>
+          </div>
+          <div class="exp-role">Software Engineer II · iOS</div>
+
+          <div style="margin-bottom:1.25rem">
+            <div style="font-size:12px;color:var(--accent3);margin-bottom:0.5rem;margin-top:0.75rem">Victoria IPL · Procter &amp; Gamble &nbsp;<span style="color:var(--muted);font-size:11px">Oct 2024 – Jan 2026</span></div>
+            <ul class="exp-bullets">
+              <li>Built scalable iOS app using SwiftUI, Combine, and Composable Architecture, improving feature modularity.</li>
+              <li>Leveraged Core Data and Core Animation to optimise storage and UI performance, improving app loading time.</li>
+              <li>Implemented BLE/Wi-Fi communication achieving real-time sync with 500ms latency.</li>
+              <li>Improved test coverage with XCTest and Quick/Nimble, reducing regression time by 40%.</li>
+              <li>Integrated GraphQL for optimised queries and AWS Cognito for secure, scalable user authentication.</li>
+              <li>Leveraged CI/CD pipelines with Fastlane, SonarQube, and automated code coverage for builds and deployments.</li>
+            </ul>
+          </div>
+
+          <div style="margin-bottom:1.25rem">
+            <div style="font-size:12px;color:var(--accent3);margin-bottom:0.5rem">EziScope · Parallel-Minds &nbsp;<span style="color:var(--muted);font-size:11px">Jan 2024 – Apr 2024</span></div>
+            <ul class="exp-bullets">
+              <li>Built Android app using Kotlin, CameraX, and ML Kit.</li>
+              <li>Implemented MVVM architecture and integrated REST APIs.</li>
+            </ul>
+          </div>
+
+          <div>
+            <div style="font-size:12px;color:var(--accent3);margin-bottom:0.5rem">Self Scan · Fit-Match &nbsp;<span style="color:var(--muted);font-size:11px">Aug 2022 – Jul 2023</span></div>
+            <ul class="exp-bullets">
+              <li>Developed AR avatar pipeline using ARKit, Metal, and ML Kit.</li>
+              <li>Improved 3D alignment accuracy by 30% using the ICP algorithm.</li>
+            </ul>
+          </div>
+
+          <div class="exp-tags" style="margin-top:1rem">
+            <span class="tag">SwiftUI</span>
+            <span class="tag">Combine</span>
+            <span class="tag">TCA</span>
+            <span class="tag">CoreBluetooth</span>
+            <span class="tag">ARKit</span>
+            <span class="tag">GraphQL</span>
+            <span class="tag">AWS Cognito</span>
+            <span class="tag">Fastlane</span>
+            <span class="tag">Kotlin</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container reveal">
+      <p class="section-label">03 — projects</p>
+      <h2 class="section-title">Things I've built.</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-type">iOS · P&G · Ciklum</div>
+          <div class="project-name">Victoria IPL</div>
+          <div class="project-desc">Scalable iOS app for a Procter &amp; Gamble connected device. Features BLE/Wi-Fi real-time sync (500ms latency), Core Data optimisation, and AWS Cognito auth — built with TCA and Combine.</div>
+          <div class="project-tags exp-tags"><span class="tag">SwiftUI</span><span class="tag">TCA</span><span class="tag">CoreBluetooth</span><span class="tag">GraphQL</span><span class="tag">AWS</span></div>
+          <div class="project-links"><a href="#">Details →</a></div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-type">iOS · AR · Ciklum</div>
+          <div class="project-name">Self Scan — Fit-Match</div>
+          <div class="project-desc">AR avatar pipeline enabling virtual try-on. Achieved 30% improvement in 3D body alignment accuracy using the ICP algorithm, ARKit, and Metal.</div>
+          <div class="project-tags exp-tags"><span class="tag">ARKit</span><span class="tag">Metal</span><span class="tag">ML Kit</span><span class="tag">Swift</span></div>
+          <div class="project-links"><a href="#">Details →</a></div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-type">Android · Ciklum</div>
+          <div class="project-name">EziScope</div>
+          <div class="project-desc">Android camera application built with Kotlin, CameraX, and ML Kit using MVVM architecture with REST API integration for Parallel-Minds.</div>
+          <div class="project-tags exp-tags"><span class="tag">Kotlin</span><span class="tag">CameraX</span><span class="tag">ML Kit</span><span class="tag">MVVM</span></div>
+          <div class="project-links"><a href="#">Details →</a></div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-type">Android · Academic</div>
+          <div class="project-name">Secure Building</div>
+          <div class="project-desc">Visitor management Android app with real-time approvals using Firebase Cloud Messaging. Built with Java, RecyclerView, and Google Firebase.</div>
+          <div class="project-tags exp-tags"><span class="tag">Java</span><span class="tag">Firebase</span><span class="tag">FCM</span><span class="tag">Android</span></div>
+          <div class="project-links"><a href="https://github.com/BhushanG6" target="_blank">GitHub →</a></div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-type">iOS · HSBC</div>
+          <div class="project-name">Modular Banking Architecture</div>
+          <div class="project-desc">Framework-based feature delivery system at HSBC, migrating legacy modules into an independent, testable modular architecture using SwiftUI and Redux.</div>
+          <div class="project-tags exp-tags"><span class="tag">Swift</span><span class="tag">SwiftUI</span><span class="tag">Redux</span><span class="tag">Jenkins</span></div>
+          <div class="project-links"><a href="#">Details →</a></div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-type">Apple Vision Pro</div>
+          <div class="project-name">Vision Pro Exploration</div>
+          <div class="project-desc">Recognised internally at Ciklum for work on Apple Vision Pro. Explored spatial computing experiences with RealityKit and visionOS APIs.</div>
+          <div class="project-tags exp-tags"><span class="tag">visionOS</span><span class="tag">RealityKit</span><span class="tag">Swift</span></div>
+          <div class="project-links"><a href="#">Details →</a></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container reveal">
+      <p class="section-label">04 — skills</p>
+      <h2 class="section-title">The toolbox.</h2>
+      <div class="skills-outer">
+        <div>
+          <div class="skill-group-title">iOS Core</div>
+          <div class="skill-list">
+            <span class="skill-pill">Swift</span>
+            <span class="skill-pill">SwiftUI</span>
+            <span class="skill-pill">UIKit</span>
+            <span class="skill-pill">Combine</span>
+            <span class="skill-pill">Core Data</span>
+            <span class="skill-pill">Core Animation</span>
+          </div>
+        </div>
+        <div>
+          <div class="skill-group-title">Frameworks</div>
+          <div class="skill-list">
+            <span class="skill-pill">ARKit</span>
+            <span class="skill-pill">RealityKit</span>
+            <span class="skill-pill">visionOS</span>
+            <span class="skill-pill">CoreBluetooth</span>
+            <span class="skill-pill">Metal</span>
+            <span class="skill-pill">ML Kit</span>
+          </div>
+        </div>
+        <div>
+          <div class="skill-group-title">Architecture</div>
+          <div class="skill-list">
+            <span class="skill-pill">TCA</span>
+            <span class="skill-pill">Redux</span>
+            <span class="skill-pill">MVVM</span>
+            <span class="skill-pill">Modular</span>
+            <span class="skill-pill">OOP</span>
+            <span class="skill-pill">DSA</span>
+          </div>
+        </div>
+        <div>
+          <div class="skill-group-title">Networking & Data</div>
+          <div class="skill-list">
+            <span class="skill-pill">GraphQL</span>
+            <span class="skill-pill">REST</span>
+            <span class="skill-pill">AWS Cognito</span>
+            <span class="skill-pill">Firebase</span>
+          </div>
+        </div>
+        <div>
+          <div class="skill-group-title">CI/CD & Tooling</div>
+          <div class="skill-list">
+            <span class="skill-pill">Fastlane</span>
+            <span class="skill-pill">Jenkins</span>
+            <span class="skill-pill">SonarQube</span>
+            <span class="skill-pill">Xcode</span>
+            <span class="skill-pill">Android Studio</span>
+          </div>
+        </div>
+        <div>
+          <div class="skill-group-title">Languages</div>
+          <div class="skill-list">
+            <span class="skill-pill">Swift</span>
+            <span class="skill-pill">Kotlin</span>
+            <span class="skill-pill">Java</span>
+            <span class="skill-pill">JavaScript</span>
+            <span class="skill-pill">Python</span>
+            <span class="skill-pill">C++</span>
+          </div>
+        </div>
+        <div>
+          <div class="skill-group-title">Testing</div>
+          <div class="skill-list">
+            <span class="skill-pill">XCTest</span>
+            <span class="skill-pill">XCUITest</span>
+            <span class="skill-pill">Quick/Nimble</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GITHUB STATS -->
+  <section id="github" style="padding:3.5rem 0;border-bottom:1px solid var(--border)">
+    <div class="container reveal">
+      <p class="section-label">04.25 — github</p>
+      <h2 class="section-title">Open source activity.</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;">
+        <div class="github-stat-card">
+          <div class="github-stat-number" id="repos-count">—</div>
+          <div class="github-stat-label">Public Repositories</div>
+        </div>
+        <div class="github-stat-card">
+          <div class="github-stat-number" id="stars-count">—</div>
+          <div class="github-stat-label">Stars Earned</div>
+        </div>
+        <div class="github-stat-card">
+          <div class="github-stat-number" id="followers-count">—</div>
+          <div class="github-stat-label">Followers</div>
+        </div>
+        <div class="github-stat-card">
+          <div class="github-stat-number" id="contributions-count">—</div>
+          <div class="github-stat-label">Contributions (2024)</div>
+        </div>
+      </div>
+      <div style="text-align:center;margin-top:2rem;">
+        <a href="https://github.com/BhushanG6" target="_blank" class="btn btn-ghost" style="display:inline-flex;">
+          <span style="margin-right:0.5rem;">⌥</span> View on GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements" style="padding:3.5rem 0;border-bottom:1px solid var(--border)">
+    <div class="container reveal">
+      <p class="section-label">04.5 — recognition</p>
+      <h2 class="section-title">Highlights.</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1rem;">
+        <div style="background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:1.25rem;">
+          <div style="font-size:1.5rem;margin-bottom:0.5rem">⭐</div>
+          <div style="font-family:var(--sans);font-weight:700;color:var(--bright);margin-bottom:0.25rem">Star Employee Award</div>
+          <div style="font-size:12px;color:var(--dim)">Ciklum · within first 6 months</div>
+        </div>
+        <div style="background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:1.25rem;">
+          <div style="font-size:1.5rem;margin-bottom:0.5rem">🏆</div>
+          <div style="font-family:var(--sans);font-weight:700;color:var(--bright);margin-bottom:0.25rem">P&G Award</div>
+          <div style="font-size:12px;color:var(--dim)">Recognised at Procter &amp; Gamble · mentored 2 engineers</div>
+        </div>
+        <div style="background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:1.25rem;">
+          <div style="font-size:1.5rem;margin-bottom:0.5rem">👓</div>
+          <div style="font-family:var(--sans);font-weight:700;color:var(--bright);margin-bottom:0.25rem">Apple Vision Pro</div>
+          <div style="font-size:12px;color:var(--dim)">Recognised for spatial computing project at Ciklum</div>
+        </div>
+        <div style="background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:1.25rem;">
+          <div style="font-size:1.5rem;margin-bottom:0.5rem">🎓</div>
+          <div style="font-family:var(--sans);font-weight:700;color:var(--bright);margin-bottom:0.25rem">CGPA 9.04 / 10</div>
+          <div style="font-size:12px;color:var(--dim)">B.E. Information Technology · PICT Pune</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOG -->
+  <section id="blog">
+    <div class="container reveal">
+      <p class="section-label">05 — writing</p>
+      <h2 class="section-title">Notes from the trenches.</h2>
+      <div class="blog-list">
+        <div class="blog-item" onclick="toggleBlogPost(1)">
+          <div class="blog-header">
+            <div class="blog-left">
+              <span class="blog-num">01</span>
+              <div>
+                <div class="blog-title">Debugging DYLD crashes that only happen outside Xcode</div>
+                <div class="blog-tags" style="margin-top: 0.5rem;">
+                  <span class="blog-tag">Debugging</span>
+                  <span class="blog-tag">iOS</span>
+                  <span class="blog-tag">Performance</span>
+                </div>
+              </div>
+            </div>
+            <div class="blog-meta">
+              <span class="blog-date">Apr 12, 2026</span>
+              <span class="blog-read-time">5 min read</span>
+            </div>
+          </div>
+          <div class="blog-excerpt">
+            A deep dive into DYLD linker issues that manifest in production but not during Xcode debugging. Learn how to identify lazy binding issues, weak imports, and library search paths that cause mysterious crashes.
+          </div>
+        </div>
+
+        <div class="blog-item" onclick="toggleBlogPost(2)">
+          <div class="blog-header">
+            <div class="blog-left">
+              <span class="blog-num">02</span>
+              <div>
+                <div class="blog-title">Hybrid RSA+AES encryption in a real banking app</div>
+                <div class="blog-tags" style="margin-top: 0.5rem;">
+                  <span class="blog-tag">Security</span>
+                  <span class="blog-tag">Encryption</span>
+                  <span class="blog-tag">Banking</span>
+                </div>
+              </div>
+            </div>
+            <div class="blog-meta">
+              <span class="blog-date">Mar 28, 2026</span>
+              <span class="blog-read-time">8 min read</span>
+            </div>
+          </div>
+          <div class="blog-excerpt">
+            Implementing secure end-to-end encryption in HSBC's iOS app using RSA for key exchange and AES-256-GCM for data encryption. Covers Secure Enclave integration, key management, and crypto best practices.
+          </div>
+        </div>
+
+        <div class="blog-item" onclick="toggleBlogPost(3)">
+          <div class="blog-header">
+            <div class="blog-left">
+              <span class="blog-num">03</span>
+              <div>
+                <div class="blog-title">Building a plugin-based iOS architecture from scratch</div>
+                <div class="blog-tags" style="margin-top: 0.5rem;">
+                  <span class="blog-tag">Architecture</span>
+                  <span class="blog-tag">Modular Design</span>
+                  <span class="blog-tag">Swift</span>
+                </div>
+              </div>
+            </div>
+            <div class="blog-meta">
+              <span class="blog-date">Mar 15, 2026</span>
+              <span class="blog-read-time">12 min read</span>
+            </div>
+          </div>
+          <div class="blog-excerpt">
+            A comprehensive guide to building a plugin system in Swift that allows runtime feature loading without recompiling the main app. Covers dynamic framework loading, protocol-based plugins, and dependency injection.
+          </div>
+        </div>
+
+        <div class="blog-item" onclick="toggleBlogPost(4)">
+          <div class="blog-header">
+            <div class="blog-left">
+              <span class="blog-num">04</span>
+              <div>
+                <div class="blog-title">Mastering Core Data migrations without losing production data</div>
+                <div class="blog-tags" style="margin-top: 0.5rem;">
+                  <span class="blog-tag">Core Data</span>
+                  <span class="blog-tag">Database</span>
+                  <span class="blog-tag">Best Practices</span>
+                </div>
+              </div>
+            </div>
+            <div class="blog-meta">
+              <span class="blog-date">Feb 22, 2026</span>
+              <span class="blog-read-time">10 min read</span>
+            </div>
+          </div>
+          <div class="blog-excerpt">
+            Learned the hard way: how to safely migrate Core Data schemas in production apps. Includes lightweight vs heavyweight migrations, safe data transformations, and testing strategies.
+          </div>
+        </div>
+
+        <div class="blog-item" onclick="toggleBlogPost(5)">
+          <div class="blog-header">
+            <div class="blog-left">
+              <span class="blog-num">05</span>
+              <div>
+                <div class="blog-title">Getting the most out of Fastlane in a monorepo</div>
+                <div class="blog-tags" style="margin-top: 0.5rem;">
+                  <span class="blog-tag">CI/CD</span>
+                  <span class="blog-tag">Automation</span>
+                  <span class="blog-tag">DevOps</span>
+                </div>
+              </div>
+            </div>
+            <div class="blog-meta">
+              <span class="blog-date">Feb 08, 2026</span>
+              <span class="blog-read-time">7 min read</span>
+            </div>
+          </div>
+          <div class="blog-excerpt">
+            Setting up Fastlane across multiple iOS and Android projects in a single repo. Advanced configuration patterns, parallel builds, and managing secrets securely in your CI/CD pipeline.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container reveal">
+      <p class="section-label">06 — contact</p>
+      <h2 class="section-title">Let's talk.</h2>
+      <div class="contact-inner">
+        <div class="contact-blurb">
+          <p>I'm always open to interesting conversations — whether that's a new role, a side project collaboration, or just talking iOS architecture over the internet.</p>
+          <br />
+          <p style="color:var(--dim)">Based in Pune, India. Available for remote opportunities globally.</p>
+        </div>
+        <div class="contact-form-container">
+          <form id="contact-form" action="https://formspree.io/f/xpznqgkq" method="POST">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%;margin-top:1rem;">Send Message →</button>
+          </form>
+          <div id="form-status" style="margin-top:1rem;text-align:center;font-size:12px;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>© 2026 Bhushan Gajare — built with care, deployed with confidence.</p>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <div class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+    ↑
+  </div>
+
+  <!-- BLOG MODAL -->
+  <div class="blog-modal" id="blog-modal" onclick="if(event.target === this) closeBlogPost()">
+    <div class="blog-modal-content">
+      <span class="blog-modal-close" onclick="closeBlogPost()">×</span>
+      <div id="blog-modal-body"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
